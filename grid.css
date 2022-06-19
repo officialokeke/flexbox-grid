@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    '1 1 2'
+    ;
+}
+
+main div{
+    padding: 2em;
+    text-align: center;
+}
+
+.item-1{
+    background-color: #EB5020;
+    grid-area: 1;
+}
+
+.item-2{
+    background-color: #FFA401;
+    grid-area: 2;
+}
+
+.item-3{
+    background-color: #05AA42;
+    grid-area: 3;
+}
+
+.item-4{
+    background-color: #01AEFD;
+    grid-area: 4;
+}
+
+.item-5{
+    background-color: #01AEFD;
+    grid-area: 5;
+}
